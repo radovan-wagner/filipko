@@ -1,8 +1,12 @@
 #ifndef __JVN_GENERATOR
 #define __JVN_GENERATOR
 
-#define MAX_DLZKA_CISLA (sizeof(unsigned long)\2)
+    #include <math.h>
+    // #define MAX_DLZKA_CISLA (unsigned int)log10((double)(2^((sizeof(long)*8)-1.0)/2.0))
+    #define MAX_DLZKA_CISLA 4
+    #define DEFAULT_SEED 1234
+    #define ERR_OVERFLOW -1
 
-    unsigned long msm( unsigned int dlzka, unsigned int seed );
+    long msm( unsigned int dlzka, unsigned int seed );      // Neumanova metoda stredu mocniny
 
 #endif
