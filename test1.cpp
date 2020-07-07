@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "jvn_generator.hpp"
 
 int main( int argc, const char *argv[], const char *env[] )
 {
