@@ -8,6 +8,6 @@
     #define DEFAULT_SEED 1234
     #define ERR_OVERFLOW -1
 
-    long msm( unsigned int dlzka, unsigned int seed );      // Neumanova metoda stredu mocniny
+    unsigned long long int msm( int dlzka, unsigned long long int seed );      // Neumanova metoda stredu mocniny
 
 #endif
