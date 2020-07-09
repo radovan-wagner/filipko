@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include "jvn_generator.hpp"
 
-int main( int argc, const char *argv[], const char *env[] )
+int main()
 {
      int             i=0;
      unsigned long long int             n;
      
-    n=82193232;
+    n=8219;
     
     // printf("%ld\n", sizeof(unsigned long long int));
-    for(i=0;i<100;i++)
+    for(i=0;i<10;i++)
 	{
-    printf("%08u\n", n=msm( 8, n ) );
+    printf("%u\n", n=msm( 4, n ) );
     
     }
     

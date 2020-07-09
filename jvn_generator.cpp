@@ -6,7 +6,7 @@
 
 unsigned long long int msm( int dlzka, unsigned long long int seed )
 {
-    unsigned long long int            mocnina;
+    double       uprava;
     unsigned long long int   vysledok=0;
     int i;
     
